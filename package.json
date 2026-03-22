@@ -1,0 +1,14 @@
+{
+  "name": "sudokus-org",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sudoku Play static site deployed with Cloudflare Workers.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

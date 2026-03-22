@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362 56" role="img" aria-label="Sudoku-Play.org logo for kids">
+  <defs>
+    <style>
+      .line{fill:none;stroke:#d67c88;stroke-linecap:round;stroke-linejoin:round}
+      .num{fill:#163b63;font:700 16px/1 "Inter","Segoe UI",Arial,sans-serif}
+      .word{fill:#f3ebde;font:700 27px/1 "Inter","Segoe UI",Arial,sans-serif;letter-spacing:-0.03em}
+      .soft{fill:#fff7f8}
+      .tint{fill:#ffe7ea}
+      .face{fill:none;stroke:#d84457;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect x="3" y="6" width="44" height="44" rx="14" class="soft"/>
+  <rect x="3" y="6" width="22" height="22" rx="14" class="tint"/>
+  <rect x="25" y="28" width="22" height="22" rx="14" class="tint"/>
+  <rect x="3" y="6" width="44" height="44" rx="14" class="line" stroke-width="1.8"/>
+  <path d="M25 8v40M5 28h40" class="line" stroke-width="1.35"/>
+  <text x="14" y="22.6" text-anchor="middle" class="num">9</text>
+  <text x="36" y="44.6" text-anchor="middle" class="num">4</text>
+  <circle cx="36" cy="17" r="6.1" class="face"/>
+  <path d="M33.4 14.9h.1M38.6 14.9h.1" class="face"/>
+  <path d="M33.3 18.7c1.5 1.8 4 1.8 5.5 0" class="face"/>
+  <circle cx="14" cy="39" r="6.1" class="face"/>
+  <path d="M11.5 37.1h.1" class="face"/>
+  <path d="M15.8 36.8l1.8.7" class="face"/>
+  <path d="M11.2 40.8c1.5 1.9 4.2 1.9 5.8 0" class="face"/>
+  <text x="57" y="35.4" class="word">Sudoku-Play.org</text>
+</svg>
