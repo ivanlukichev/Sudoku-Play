@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" fill="none">
+  <defs>
+    <linearGradient id="bg4" x1="130" y1="80" x2="1210" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FD"/>
+    </linearGradient>
+    <linearGradient id="cta2" x1="928" y1="640" x2="1176" y2="714" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A8FF0"/>
+      <stop offset="1" stop-color="#2369CA"/>
+    </linearGradient>
+    <filter id="dropC" x="120" y="120" width="1160" height="782" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="30"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0902 0 0 0 0 0.2196 0 0 0 0 0.3608 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="980" fill="url(#bg4)"/>
+  <text x="126" y="84" fill="#2F7DE1" font-size="38" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">SUDOKU PLAY EXTENSION</text>
+  <text x="126" y="140" fill="#19324D" font-size="68" font-family="Arial, Helvetica, sans-serif" font-weight="700">Daily And Kids Handoff</text>
+  <text x="126" y="186" fill="#5C738B" font-size="28" font-family="Arial, Helvetica, sans-serif">The extension keeps quick play close and sends users to the website for more modes.</text>
+
+  <g filter="url(#dropC)">
+    <rect x="182" y="150" width="1036" height="658" rx="40" fill="#FFFFFF"/>
+    <rect x="218" y="186" width="966" height="68" rx="24" fill="#F2F7FF"/>
+    <text x="262" y="228" fill="#2F7DE1" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">FROM EXTENSION TO WEBSITE</text>
+
+    <rect x="248" y="300" width="264" height="364" rx="30" fill="#F7FAFF" stroke="#D7E5F7"/>
+    <text x="284" y="348" fill="#19324D" font-size="40" font-family="Arial, Helvetica, sans-serif" font-weight="700">Popup</text>
+    <text x="284" y="390" fill="#5C738B" font-size="24" font-family="Arial, Helvetica, sans-serif">Solve quick 4x4 levels</text>
+    <rect x="282" y="430" width="196" height="196" rx="24" fill="#EEF4FD" stroke="#ADC8E8" stroke-width="3"/>
+    <line x1="380" y1="444" x2="380" y2="612" stroke="#8EB1DA" stroke-width="4"/>
+    <line x1="296" y1="528" x2="464" y2="528" stroke="#8EB1DA" stroke-width="4"/>
+    <text x="316" y="499" fill="#19324D" font-size="44" font-family="Arial, Helvetica, sans-serif">😀</text>
+    <text x="401" y="499" fill="#19324D" font-size="44" font-family="Arial, Helvetica, sans-serif">🤖</text>
+    <text x="316" y="584" fill="#19324D" font-size="44" font-family="Arial, Helvetica, sans-serif">😎</text>
+    <text x="401" y="584" fill="#19324D" font-size="44" font-family="Arial, Helvetica, sans-serif">🥳</text>
+
+    <path d="M566 483H744" stroke="#2F7DE1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M706 447L748 483L706 519" stroke="#2F7DE1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="796" y="300" width="378" height="364" rx="30" fill="#F7FAFF" stroke="#D7E5F7"/>
+    <text x="832" y="348" fill="#19324D" font-size="40" font-family="Arial, Helvetica, sans-serif" font-weight="700">sudoku-play.org</text>
+    <text x="832" y="390" fill="#5C738B" font-size="24" font-family="Arial, Helvetica, sans-serif">Daily Sudoku, Kids Sudoku, Guide</text>
+    <rect x="832" y="430" width="306" height="78" rx="22" fill="url(#cta2)"/>
+    <text x="907" y="479" fill="#FFFFFF" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Open Daily Sudoku</text>
+    <rect x="832" y="528" width="306" height="78" rx="22" fill="#FFFFFF" stroke="#D7E5F7"/>
+    <text x="913" y="577" fill="#19324D" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Open Kids Sudoku</text>
+
+    <rect x="248" y="696" width="926" height="82" rx="24" fill="#EDF5FF"/>
+    <text x="284" y="748" fill="#1D62BF" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">Quick brain break in the extension. More content on the website.</text>
+  </g>
+</svg>
