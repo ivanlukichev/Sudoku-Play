@@ -25,29 +25,32 @@
       <section class="popup-card" aria-labelledby="popup-actions-title">
         <div class="popup-card__preview">
           <div class="preview-head">
-            <p class="preview-label">Quick play in popup</p>
-            <p class="preview-hint">4x4 kids Sudoku. Tap a cell, then an icon.</p>
+            <div>
+              <p class="preview-label">Quick play in popup</p>
+              <p class="preview-hint">4x4 kids Sudoku. Tap a cell, then an icon.</p>
+            </div>
+            <p class="preview-progress" id="mini-progress">Level 1 of 10</p>
           </div>
           <div class="preview-grid" id="mini-board" role="grid" aria-label="Mini puzzle board">
             <button class="preview-cell" type="button" data-cell="0" aria-label="Cell 1"></button>
             <button class="preview-cell preview-cell--box-right" type="button" data-cell="1" aria-label="Cell 2"></button>
-            <button class="preview-cell is-given" type="button" data-cell="2">🤖</button>
-            <button class="preview-cell is-given" type="button" data-cell="3">😀</button>
+            <button class="preview-cell" type="button" data-cell="2" aria-label="Cell 3"></button>
+            <button class="preview-cell" type="button" data-cell="3" aria-label="Cell 4"></button>
 
-            <button class="preview-cell is-given preview-cell--box-bottom" type="button" data-cell="4">😀</button>
-            <button class="preview-cell is-given preview-cell--box-right preview-cell--box-bottom" type="button" data-cell="5">🤖</button>
+            <button class="preview-cell preview-cell--box-bottom" type="button" data-cell="4" aria-label="Cell 5"></button>
+            <button class="preview-cell preview-cell--box-right preview-cell--box-bottom" type="button" data-cell="5" aria-label="Cell 6"></button>
             <button class="preview-cell preview-cell--box-bottom" type="button" data-cell="6" aria-label="Cell 7"></button>
             <button class="preview-cell preview-cell--box-bottom" type="button" data-cell="7" aria-label="Cell 8"></button>
 
-            <button class="preview-cell is-given" type="button" data-cell="8">😎</button>
+            <button class="preview-cell" type="button" data-cell="8" aria-label="Cell 9"></button>
             <button class="preview-cell preview-cell--box-right" type="button" data-cell="9" aria-label="Cell 10"></button>
-            <button class="preview-cell is-given" type="button" data-cell="10">😀</button>
+            <button class="preview-cell" type="button" data-cell="10" aria-label="Cell 11"></button>
             <button class="preview-cell" type="button" data-cell="11" aria-label="Cell 12"></button>
 
             <button class="preview-cell" type="button" data-cell="12" aria-label="Cell 13"></button>
-            <button class="preview-cell is-given preview-cell--box-right" type="button" data-cell="13">😀</button>
+            <button class="preview-cell preview-cell--box-right" type="button" data-cell="13" aria-label="Cell 14"></button>
             <button class="preview-cell" type="button" data-cell="14" aria-label="Cell 15"></button>
-            <button class="preview-cell is-given" type="button" data-cell="15">😎</button>
+            <button class="preview-cell" type="button" data-cell="15" aria-label="Cell 16"></button>
           </div>
           <div class="mini-pad" id="mini-pad" aria-label="Mini puzzle number pad"></div>
           <p class="mini-status" id="mini-status" aria-live="polite">Finish the 4x4 mini Sudoku here, or open the full board below.</p>
@@ -81,6 +84,25 @@
         <p class="footer-copy">Daily Sudoku, kids puzzles, and guides in one place.</p>
       </footer>
     </main>
+
+    <div class="mini-modal" id="mini-modal" hidden>
+      <div class="mini-modal__scrim"></div>
+      <section class="mini-modal__card" role="dialog" aria-modal="true" aria-labelledby="mini-modal-title">
+        <p class="preview-label">Level Complete</p>
+        <h2 id="mini-modal-title">Mini Sudoku solved</h2>
+        <p class="mini-modal__copy" id="mini-modal-copy">Go to the next popup level or open the full 9x9 Sudoku board.</p>
+        <div class="mini-modal__actions">
+          <button class="launch-button launch-button--primary" type="button" id="mini-next-level">
+            <span class="launch-button__title">Next Level</span>
+            <span class="launch-button__meta">Load the next mini puzzle in the popup</span>
+          </button>
+          <button class="launch-button" type="button" id="mini-open-full">
+            <span class="launch-button__title">Open Full 9x9 Board</span>
+            <span class="launch-button__meta">Switch to the full extension version</span>
+          </button>
+        </div>
+      </section>
+    </div>
 
     <script src="./popup.js"></script>
   </body>
