@@ -24,26 +24,31 @@
 
       <section class="popup-card" aria-labelledby="popup-actions-title">
         <div class="popup-card__preview">
-          <p class="preview-label">Inside the extension</p>
-          <div class="preview-grid" aria-hidden="true">
-            <span>9</span>
-            <span></span>
-            <span>4</span>
-            <span></span>
-            <span>6</span>
-            <span></span>
-            <span>5</span>
-            <span></span>
-            <span>8</span>
+          <div class="preview-head">
+            <p class="preview-label">Quick play in popup</p>
+            <p class="preview-hint">Tap a cell, then a number.</p>
           </div>
+          <div class="preview-grid" id="mini-board" role="grid" aria-label="Mini puzzle board">
+            <button class="preview-cell is-given" type="button" data-cell="0">9</button>
+            <button class="preview-cell" type="button" data-cell="1" aria-label="Cell 2"></button>
+            <button class="preview-cell is-given" type="button" data-cell="2">4</button>
+            <button class="preview-cell" type="button" data-cell="3" aria-label="Cell 4"></button>
+            <button class="preview-cell is-given" type="button" data-cell="4">6</button>
+            <button class="preview-cell" type="button" data-cell="5" aria-label="Cell 6"></button>
+            <button class="preview-cell is-given" type="button" data-cell="6">5</button>
+            <button class="preview-cell" type="button" data-cell="7" aria-label="Cell 8"></button>
+            <button class="preview-cell is-given" type="button" data-cell="8">8</button>
+          </div>
+          <div class="mini-pad" id="mini-pad" aria-label="Mini puzzle number pad"></div>
+          <p class="mini-status" id="mini-status" aria-live="polite">Finish the mini grid here, or open the full board below.</p>
         </div>
 
         <div class="popup-card__body">
           <h2 id="popup-actions-title">Open a puzzle</h2>
           <div class="action-list">
             <button class="launch-button launch-button--primary" type="button" data-route="home">
-              <span class="launch-button__title">Play in Extension</span>
-              <span class="launch-button__meta">Open the built-in Sudoku board with number buttons</span>
+              <span class="launch-button__title">Open Full 9x9 Board</span>
+              <span class="launch-button__meta">Launch the larger built-in Sudoku page</span>
             </button>
             <button class="launch-button" type="button" data-route="daily">
               <span class="launch-button__title">Daily Sudoku</span>
