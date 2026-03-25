@@ -89,17 +89,17 @@ Play Sudoku directly from your browser toolbar.
 
 ### Supported browsers
 
-* Chrome (comming soon)
+* Chrome (coming soon)
 
-  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome
+  Source code: [extension/chrome](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome)
   
-* Opera (comming soon)
+* Opera (coming soon)
   
-  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera
+  Source code: [extension/opera](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera)
   
-* Firefox (comming soon)
+* Firefox (coming soon)
 
-  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox
+  Source code: [extension/firefox](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox)
 
 ✨ Open puzzles in one click
 ✨ Jump straight into Daily Sudoku
@@ -174,7 +174,7 @@ No friction. No noise. Just puzzles.
 
 ## ⭐ Future Plans
 
-* browser extension release
+* browser extension store release
 * printable puzzle packs
 * advanced solving tools
 * more kids-friendly formats
