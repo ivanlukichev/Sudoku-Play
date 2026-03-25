@@ -1,10 +1,11 @@
 (function () {
   "use strict";
 
+  var MINI_SYMBOLS = ["😀", "😎", "🥳", "🤖"];
   var MINI_PUZZLE = {
-    puzzle: ["9", "", "4", "", "6", "", "5", "", "8"],
-    solution: ["9", "1", "4", "7", "6", "2", "5", "3", "8"],
-    givenIndexes: [0, 2, 4, 6, 8]
+    puzzle: ["", "", "🤖", "😀", "😀", "🤖", "", "", "😎", "", "😀", "", "", "😀", "", "😎"],
+    solution: ["🥳", "😎", "🤖", "😀", "😀", "🤖", "😎", "🥳", "😎", "🥳", "😀", "🤖", "🤖", "😀", "🥳", "😎"],
+    givenIndexes: [2, 3, 4, 5, 8, 10, 13, 15]
   };
   var ROUTES = {
     home: { path: "index.html" },
@@ -13,7 +14,7 @@
     guide: { url: "https://sudoku-play.org/guide/" }
   };
   var miniState = {
-    selectedIndex: 1,
+    selectedIndex: 0,
     values: MINI_PUZZLE.puzzle.slice()
   };
 
@@ -72,10 +73,10 @@
     });
 
     if (solved) {
-      status.textContent = "Mini grid solved. Nice quick win.";
+      status.textContent = "Mini 4x4 solved. Nice quick win.";
       return;
     }
-    status.textContent = "Finish the mini grid here, or open the full board below.";
+    status.textContent = "Finish the 4x4 mini Sudoku here, or open the full board below.";
   }
 
   function selectMiniCell(index) {
@@ -99,13 +100,13 @@
     if (!pad) {
       return;
     }
-    ["1", "2", "3", "4", "5", "6", "7", "8", "9"].forEach(function (digit) {
+    MINI_SYMBOLS.forEach(function (symbol) {
       var button = document.createElement("button");
       button.type = "button";
       button.className = "mini-pad__button";
-      button.textContent = digit;
+      button.textContent = symbol;
       button.addEventListener("click", function () {
-        setMiniValue(digit);
+        setMiniValue(symbol);
       });
       pad.appendChild(button);
     });
@@ -128,8 +129,9 @@
     });
 
     document.addEventListener("keydown", function (event) {
-      if (/^[1-9]$/.test(event.key)) {
-        setMiniValue(event.key);
+      var numericIndex = Number(event.key) - 1;
+      if (/^[1-4]$/.test(event.key)) {
+        setMiniValue(MINI_SYMBOLS[numericIndex]);
       }
       if (event.key === "Backspace" || event.key === "Delete" || event.key === "0") {
         setMiniValue("");

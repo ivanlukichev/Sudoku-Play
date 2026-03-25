@@ -26,21 +26,31 @@
         <div class="popup-card__preview">
           <div class="preview-head">
             <p class="preview-label">Quick play in popup</p>
-            <p class="preview-hint">Tap a cell, then a number.</p>
+            <p class="preview-hint">4x4 kids Sudoku. Tap a cell, then an icon.</p>
           </div>
           <div class="preview-grid" id="mini-board" role="grid" aria-label="Mini puzzle board">
-            <button class="preview-cell is-given" type="button" data-cell="0">9</button>
-            <button class="preview-cell" type="button" data-cell="1" aria-label="Cell 2"></button>
-            <button class="preview-cell is-given" type="button" data-cell="2">4</button>
-            <button class="preview-cell" type="button" data-cell="3" aria-label="Cell 4"></button>
-            <button class="preview-cell is-given" type="button" data-cell="4">6</button>
-            <button class="preview-cell" type="button" data-cell="5" aria-label="Cell 6"></button>
-            <button class="preview-cell is-given" type="button" data-cell="6">5</button>
-            <button class="preview-cell" type="button" data-cell="7" aria-label="Cell 8"></button>
-            <button class="preview-cell is-given" type="button" data-cell="8">8</button>
+            <button class="preview-cell" type="button" data-cell="0" aria-label="Cell 1"></button>
+            <button class="preview-cell preview-cell--box-right" type="button" data-cell="1" aria-label="Cell 2"></button>
+            <button class="preview-cell is-given" type="button" data-cell="2">🤖</button>
+            <button class="preview-cell is-given" type="button" data-cell="3">😀</button>
+
+            <button class="preview-cell is-given preview-cell--box-bottom" type="button" data-cell="4">😀</button>
+            <button class="preview-cell is-given preview-cell--box-right preview-cell--box-bottom" type="button" data-cell="5">🤖</button>
+            <button class="preview-cell preview-cell--box-bottom" type="button" data-cell="6" aria-label="Cell 7"></button>
+            <button class="preview-cell preview-cell--box-bottom" type="button" data-cell="7" aria-label="Cell 8"></button>
+
+            <button class="preview-cell is-given" type="button" data-cell="8">😎</button>
+            <button class="preview-cell preview-cell--box-right" type="button" data-cell="9" aria-label="Cell 10"></button>
+            <button class="preview-cell is-given" type="button" data-cell="10">😀</button>
+            <button class="preview-cell" type="button" data-cell="11" aria-label="Cell 12"></button>
+
+            <button class="preview-cell" type="button" data-cell="12" aria-label="Cell 13"></button>
+            <button class="preview-cell is-given preview-cell--box-right" type="button" data-cell="13">😀</button>
+            <button class="preview-cell" type="button" data-cell="14" aria-label="Cell 15"></button>
+            <button class="preview-cell is-given" type="button" data-cell="15">😎</button>
           </div>
           <div class="mini-pad" id="mini-pad" aria-label="Mini puzzle number pad"></div>
-          <p class="mini-status" id="mini-status" aria-live="polite">Finish the mini grid here, or open the full board below.</p>
+          <p class="mini-status" id="mini-status" aria-live="polite">Finish the 4x4 mini Sudoku here, or open the full board below.</p>
         </div>
 
         <div class="popup-card__body">

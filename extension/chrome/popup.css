@@ -125,8 +125,12 @@ body {
 
 .preview-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  overflow: hidden;
+  border: 2px solid rgba(111, 149, 192, 0.44);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .preview-cell {
@@ -139,7 +143,7 @@ body {
   font-weight: 700;
   color: #24476f;
   background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(92, 131, 176, 0.14);
+  border: 1px solid rgba(143, 181, 219, 0.6);
   transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
 }
 
@@ -162,6 +166,14 @@ body {
   background: linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
 }
 
+.preview-cell--box-right {
+  border-right: 2px solid rgba(111, 149, 192, 0.7);
+}
+
+.preview-cell--box-bottom {
+  border-bottom: 2px solid rgba(111, 149, 192, 0.7);
+}
+
 .preview-cell.is-selected {
   background: #dbeaff;
   border-color: #2f7de1;
@@ -180,7 +192,7 @@ body {
 
 .mini-pad {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
 
@@ -195,8 +207,13 @@ body {
   font-weight: 700;
 }
 
+.mini-pad__button {
+  font-size: 1.15rem;
+}
+
 .mini-pad__button.is-clear {
-  grid-column: span 2;
+  grid-column: span 4;
+  font-size: 0.92rem;
 }
 
 .popup-card__body {
