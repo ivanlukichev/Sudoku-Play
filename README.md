@@ -1,32 +1,55 @@
-# Sudoku Play Extensions
+# Sudoku Play
 
-Public source repository for the Sudoku Play browser extensions.
+Sudoku Play is a lightweight browser extension product that brings quick Sudoku access into Chrome, Opera, and Firefox.
+
+Open the main Sudoku board, jump into Daily Sudoku, launch Kids Sudoku, and keep a quick brain break right in your browser toolbar.
 
 Live website: [sudoku-play.org](https://sudoku-play.org/)
 
-## Included
+## Why Sudoku Play
 
-- Chrome extension build in `extension/chrome/`
-- Opera extension build in `extension/opera/`
-- Firefox extension build in `extension/firefox/`
-- Shared popup source in `extension/src/`
-- Store submission copy and media in `extension/store/`
+- Quick access to Sudoku from the browser toolbar
+- Daily Sudoku in one click
+- Kids Sudoku shortcuts for family-friendly play
+- Clean popup UI with simple branded actions
+- Shared source with browser-specific builds for Chrome, Opera, and Firefox
 
-## Store Links
+## Browser Extensions
 
-- Chrome: Coming soon
-- Opera: Coming soon
-- Firefox: Coming soon
+- Chrome extension: Coming soon
+- Opera extension: Coming soon
+- Firefox extension: Coming soon
 
-## Repository Structure
+Store links will be added after publication.
 
-- `extension/src/` shared source for the popup UI
-- `extension/chrome/` Chrome-ready extension files
-- `extension/opera/` Opera-ready extension files
-- `extension/firefox/` Firefox-ready extension files
-- `extension/store/` store descriptions, checklist, screenshots, and promo assets
+## What’s in This Repository
 
-## Usage
+This public repository contains the browser extension source and release assets for Sudoku Play.
+
+- `extension/src/` shared popup source
+- `extension/chrome/` Chrome build
+- `extension/opera/` Opera build
+- `extension/firefox/` Firefox build
+- `extension/store/` store copy, screenshots, promo assets, and submission notes
+
+## Extension Experience
+
+The first release focuses on a simple MVP:
+
+- Popup launcher from the extension icon
+- Button to play Sudoku
+- Button to open Daily Sudoku
+- Button to open Kids Sudoku
+- Quick link to the Guide
+
+The popup stays compact and clean, while the full gameplay experience continues on [sudoku-play.org](https://sudoku-play.org/).
+
+## Source and Assets
+
+- Shared popup source: [`extension/src/`](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/src)
+- Browser builds: [`extension/`](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension)
+
+## Local Usage
 
 Load one of the browser-specific folders as an unpacked extension:
 
@@ -36,5 +59,5 @@ Load one of the browser-specific folders as an unpacked extension:
 
 ## Notes
 
-- This public repository contains the browser extension product files only.
-- The website source is not included here.
+- This repository is public and focused on the extension product only.
+- The website source is maintained separately.
