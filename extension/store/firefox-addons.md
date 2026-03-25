@@ -1,25 +1,28 @@
 # Firefox Add-ons Draft
 
 ## Short Description
-Quick access to Sudoku Play, Daily Sudoku, and Kids Sudoku from Firefox.
+Play a compact 9x9 Sudoku in Firefox and open more puzzles on sudoku-play.org.
 
 ## Promo Text
-Open Sudoku from your toolbar.
+Play Sudoku from your toolbar.
 
 ## Full Description
-Sudoku Play is a small browser extension that makes it easy to open Sudoku puzzles from Firefox without hunting through bookmarks or tabs.
+Sudoku Play is a small browser extension that lets you play a compact 9x9 Sudoku inside Firefox and jump to more puzzles on sudoku-play.org.
 
 From the popup you can:
 
-- launch the main Sudoku board
-- open the daily shared puzzle
-- jump to Kids Sudoku
+- open the built-in Sudoku game
+- open the daily shared puzzle on the website
+- jump to Kids Sudoku on the website
 - visit the Sudoku Guide
 
-The extension keeps the interface simple, clean, and focused. It is built for players who want a fast brain break and a consistent path back to sudoku-play.org.
+The extension keeps the interface simple, clean, and focused. It is built for players who want a fast brain break inside the browser, with an easy path back to sudoku-play.org for more content.
 
 Version 1 focuses on:
 
+- a playable Sudoku board inside the extension
+- number pad input and keyboard support
+- 16 preloaded puzzles
 - a branded popup launcher
 - Daily Sudoku shortcut
 - Kids Sudoku shortcut

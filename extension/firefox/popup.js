@@ -3,8 +3,8 @@
 
   var ROUTES = {
     home: { path: "index.html" },
-    daily: { path: "daily-sudoku/index.html" },
-    kids: { path: "sudoku-for-kids/index.html" },
+    daily: { url: "https://sudoku-play.org/daily-sudoku/" },
+    kids: { url: "https://sudoku-play.org/sudoku-for-kids/" },
     guide: { url: "https://sudoku-play.org/guide/" }
   };
 

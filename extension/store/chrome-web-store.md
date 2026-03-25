@@ -1,26 +1,28 @@
 # Chrome Web Store Draft
 
 ## Short Description
-Play Sudoku, Daily Sudoku, and Kids Sudoku in one click from your browser toolbar.
+Play a compact 9x9 Sudoku in your browser and open more puzzles on sudoku-play.org.
 
 ## Promo Text
-Quick Sudoku break from your toolbar.
+Playable Sudoku right in your toolbar.
 
 ## Full Description
-Sudoku Play brings the main Sudoku Play experience into your browser toolbar with a compact popup and fast links to the puzzles people use most.
+Sudoku Play brings a compact 9x9 Sudoku directly into your browser, with a clean popup and quick links to more puzzles on sudoku-play.org.
 
 Use the extension to:
 
-- open the main Sudoku board in one click
-- jump straight to today&apos;s Daily Sudoku
-- launch Kids Sudoku for Mini, Picture, and Junior modes
-- reach the Sudoku Guide without searching through tabs
+- play a built-in Sudoku puzzle inside the extension
+- switch to another built-in puzzle in one click
+- open today&apos;s Daily Sudoku on the website
+- launch Kids Sudoku and the Guide on sudoku-play.org
 
-Sudoku Play keeps the popup clean and lightweight. Open the extension, choose the puzzle you want, and continue solving on sudoku-play.org with the full game interface.
+Sudoku Play keeps the experience lightweight and focused. Open the popup, start a built-in puzzle, and jump to the website whenever you want more daily puzzles, kids modes, and guides.
 
 What&apos;s included in version 1:
 
-- Popup launcher for the main game
+- Built-in 9x9 Sudoku board
+- Number pad input and keyboard support
+- 16 preloaded puzzles across multiple difficulty levels
 - Daily Sudoku shortcut
 - Kids Sudoku shortcut
 - Guide shortcut
