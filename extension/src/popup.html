@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sudoku Play</title>
+    <link rel="stylesheet" href="./popup.css">
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="popup-hero">
+        <div class="brand-mark" aria-hidden="true">
+          <span>7</span>
+          <span>3</span>
+          <span>2</span>
+          <span>1</span>
+        </div>
+        <div class="popup-hero__copy">
+          <p class="eyebrow">Quick brain break</p>
+          <h1>Sudoku Play</h1>
+          <p class="tagline">Free daily puzzles for your browser.</p>
+        </div>
+      </header>
+
+      <section class="popup-card" aria-labelledby="popup-actions-title">
+        <div class="popup-card__preview">
+          <p class="preview-label">One-click launch</p>
+          <div class="preview-grid" aria-hidden="true">
+            <span>9</span>
+            <span></span>
+            <span>4</span>
+            <span></span>
+            <span>6</span>
+            <span></span>
+            <span>5</span>
+            <span></span>
+            <span>8</span>
+          </div>
+        </div>
+
+        <div class="popup-card__body">
+          <h2 id="popup-actions-title">Open a puzzle</h2>
+          <div class="action-list">
+            <button class="launch-button launch-button--primary" type="button" data-route="home">
+              <span class="launch-button__title">Play Sudoku</span>
+              <span class="launch-button__meta">Open the main 9x9 board</span>
+            </button>
+            <button class="launch-button" type="button" data-route="daily">
+              <span class="launch-button__title">Daily Sudoku</span>
+              <span class="launch-button__meta">Jump into today&apos;s shared puzzle</span>
+            </button>
+            <button class="launch-button" type="button" data-route="kids">
+              <span class="launch-button__title">Kids Sudoku</span>
+              <span class="launch-button__meta">Open Mini, Picture, and Junior Sudoku</span>
+            </button>
+            <button class="launch-button" type="button" data-route="guide">
+              <span class="launch-button__title">Guide</span>
+              <span class="launch-button__meta">Read tips, rules, and beginner help</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="popup-footer">
+        <a class="site-link" href="https://sudoku-play.org/" target="_blank" rel="noreferrer">sudoku-play.org</a>
+        <p class="footer-copy">Daily Sudoku, kids puzzles, and guides in one place.</p>
+      </footer>
+    </main>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
