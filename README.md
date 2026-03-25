@@ -1,69 +1,197 @@
-# Sudoku Play
+# 🧩 Sudoku Play
 
-Sudoku Play is a free online Sudoku project with classic puzzles, Daily Sudoku, kids-friendly modes, solving guides, and browser extension builds for Chrome, Opera, and Firefox.
+**Sudoku Play** is a fast, clean, and distraction-free Sudoku experience built for everyday use.
 
-Live website: [sudoku-play.org](https://sudoku-play.org/)
+👉 https://sudoku-play.org/
 
-GitHub repository: [ivanlukichev/Sudoku-Play](https://github.com/ivanlukichev/Sudoku-Play)
+---
 
-## Features
+## 🚀 What is Sudoku Play?
 
-- Play Sudoku online with Easy, Medium, Hard, and Expert difficulty levels
-- Daily Sudoku with one shared puzzle per day
-- Kids Sudoku modes including Mini Sudoku, Picture Sudoku, and Junior Sudoku
-- Printable puzzles from the in-game print flow
-- Guide articles covering rules, tips, strategies, and beginner help
-- Browser extension source and store-prep assets for Chrome, Opera, and Firefox
+Sudoku Play is a browser-based Sudoku platform designed for:
 
-## Browser Extensions
+* quick daily puzzles
+* focused solving
+* kids-friendly learning
+* printable worksheets
 
-Sudoku Play now includes a browser extension product layer built around a shared popup UI and browser-specific manifests.
+No accounts. No clutter. Just Sudoku.
 
-- Chrome extension: Coming soon
-- Opera extension: Coming soon
-- Firefox extension: Coming soon
+---
 
-The shared extension source lives in `extension/src/`, and `npm run build:extensions` generates browser-ready folders in:
+## 🎯 Why Sudoku Play?
 
-- `extension/chrome/`
-- `extension/opera/`
-- `extension/firefox/`
+Most Sudoku sites are overloaded.
 
-Store URLs are centralized in `config/extension-links.json`, which also drives the website install buttons.
+Sudoku Play focuses on:
 
-Source links:
+* ⚡ instant gameplay
+* 🧠 clean logic solving
+* 📱 mobile-friendly UI
+* 🎯 zero distractions
 
-- Extension folder: [extension/](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension)
-- Shared popup source: [extension/src/](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/src)
+It’s designed to feel like an app — directly in your browser.
 
-## Repository Structure
+---
 
-- `public/` contains the deployable website files
-- `public/browser-extension/` contains the browser extension landing page
-- `public/guide/` contains guide and SEO support content, including the browser extension article
-- `public/assets/` contains shared CSS, JavaScript, and image assets
-- `extension/src/` contains the shared popup source and icon source files
-- `extension/chrome/`, `extension/opera/`, `extension/firefox/` contain generated extension builds
-- `extension/store/` contains store listing copy and submission notes
-- `config/extension-links.json` stores extension store URLs and fallback routing
-- `scripts/build-extensions.mjs` generates extension manifests and the website extension-link config
-- `src/index.js` is the Cloudflare Worker entry used for redirects and response headers
-- `wrangler.jsonc` contains the Cloudflare Workers configuration
+## 🧠 Core Features
 
-## Local Development
+* ✔️ Play Sudoku online (Easy → Expert)
+* ✔️ Daily Sudoku (new puzzle every day)
+* ✔️ Kids Sudoku (mini, emoji, shapes)
+* ✔️ Printable Sudoku with QR codes
+* ✔️ Puzzle ID (share exact puzzles)
+* ✔️ Clean UI + dark mode + focus modes
 
-1. Install dependencies with `npm install`.
-2. Start the local preview with `npm run dev`.
-3. Rebuild browser extension outputs after changing extension source or store URLs with `npm run build:extensions`.
-4. Deploy the website with `npm run deploy`.
+---
 
-## Browser Extension Workflow
+## 🧩 Play Modes
 
-1. Update `config/extension-links.json` when store URLs are available.
-2. Run `npm run build:extensions`.
-3. Load `extension/chrome/`, `extension/opera/`, or `extension/firefox/` as unpacked extensions for testing.
-4. Use the store copy in `extension/store/` and the media in `public/assets/img/browser-extension/` during submission.
+### Classic Sudoku
 
-## License
+* Easy, Medium, Hard, Expert
+* Clean solving experience
+* Keyboard support
 
-This repository does not currently include a license file.
+### Kids Sudoku
+
+* 2×2, 3×3, 4×4 grids
+* Emoji & shape puzzles
+* Printable worksheets
+
+### Daily Sudoku
+
+* One puzzle per day
+* Same for everyone
+* Perfect for routine play
+
+---
+
+## 🧾 Printable Sudoku
+
+Sudoku Play supports printing puzzles with:
+
+* clean layout
+* puzzle ID
+* QR code (scan to open online)
+
+Perfect for:
+
+* kids
+* teachers
+* offline solving
+
+---
+
+## 🌐 Browser Extensions
+
+Play Sudoku directly from your browser toolbar.
+
+### Supported browsers
+
+* Chrome (comming soon)
+
+  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome
+  
+* Opera (comming soon)
+  
+  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera
+  
+* Firefox (comming soon)
+
+  Source code: https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox
+
+✨ Open puzzles in one click
+✨ Jump straight into Daily Sudoku
+✨ Quick brain breaks anytime
+
+---
+
+## 🧠 Guide & Learning
+
+Sudoku Play includes a growing guide section:
+
+* How to play Sudoku
+* Sudoku strategies
+* Tips for beginners
+* Sudoku for kids
+* Accessibility features
+
+Designed to help players improve naturally.
+
+---
+
+## 🧩 Puzzle System
+
+Each Sudoku uses a **Puzzle ID (seed-based generation)**.
+
+Example:
+
+```
+https://sudoku-play.org/?p=683220
+```
+
+This means:
+
+* every puzzle is reproducible
+* easy to share with others
+* consistent across devices
+
+---
+
+## 🛠 Tech Overview
+
+* Pure JavaScript (no backend)
+* Seed-based puzzle generation
+* Lightweight UI
+* Mobile-first design
+
+---
+
+## 👤 About the Author
+
+Built by **Ivan Lukichev**
+
+* SEO & product builder
+* creator of multiple micro-projects
+* focused on simple, useful tools
+
+More:
+👉 https://lukichev.biz/
+
+---
+
+
+## 💡 Philosophy
+
+Sudoku Play is built around a simple idea:
+
+> open → solve → repeat
+
+No friction. No noise. Just puzzles.
+
+---
+
+## ⭐ Future Plans
+
+* browser extension release
+* printable puzzle packs
+* advanced solving tools
+* more kids-friendly formats
+
+---
+
+## ❤️ Support
+
+If you like the project:
+
+* ⭐ Star the repo
+* 🔗 Share the site
+* 🧠 Solve a puzzle
+
+---
+
+## 🔗 Links
+
+Website: https://sudoku-play.org/
+Repository: https://github.com/ivanlukichev/Sudoku-Play
