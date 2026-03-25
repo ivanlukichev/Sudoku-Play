@@ -1,65 +1,21 @@
-# Sudoku Play
+# sudokus.org
 
-Sudoku Play is a lightweight browser extension product that brings quick Sudoku access into Chrome, Opera, and Firefox.
+Static Sudoku site prepared for Cloudflare Workers Static Assets.
 
-Open the main Sudoku board, jump into Daily Sudoku, launch Kids Sudoku, and keep a quick brain break right in your browser toolbar.
+## Project layout
 
-Live website: [sudoku-play.org](https://sudoku-play.org/)
+- `public/` contains the deployable site files.
+- `src/index.js` handles canonical-host redirects and shared response headers.
+- `wrangler.jsonc` points Workers to the static assets and enables clean HTML routing.
+- `.htaccess` is kept only as the legacy Apache reference.
 
-Created by [lukichev.biz](https://lukichev.biz/)
+## Local setup
 
-## Why Sudoku Play
-
-- Quick access to Sudoku from the browser toolbar
-- Daily Sudoku in one click
-- Kids Sudoku shortcuts for family-friendly play
-- Clean popup UI with simple branded actions
-- Shared source with browser-specific builds for Chrome, Opera, and Firefox
-
-## Browser Extensions
-
-- Chrome extension: Coming soon
-- Opera extension: Coming soon
-- Firefox extension: Coming soon
-
-Store links will be added after publication.
-
-## What’s in This Repository
-
-This public repository contains the browser extension source and release assets for Sudoku Play.
-
-- `extension/src/` shared popup source
-- `extension/chrome/` Chrome build
-- `extension/opera/` Opera build
-- `extension/firefox/` Firefox build
-- `extension/store/` store copy, screenshots, promo assets, and submission notes
-
-## Extension Experience
-
-The first release focuses on a simple MVP:
-
-- Popup launcher from the extension icon
-- Button to play Sudoku
-- Button to open Daily Sudoku
-- Button to open Kids Sudoku
-- Quick link to the Guide
-
-The popup stays compact and clean, while the full gameplay experience continues on [sudoku-play.org](https://sudoku-play.org/).
-
-## Source and Assets
-
-- Shared popup source: [`extension/src/`](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/src)
-- Browser builds: [`extension/`](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension)
-
-## Local Usage
-
-Load one of the browser-specific folders as an unpacked extension:
-
-- `extension/chrome/`
-- `extension/opera/`
-- `extension/firefox/`
+1. Install dependencies with `npm install`.
+2. Start a preview with `npm run dev`.
+3. Deploy with `npm run deploy`.
 
 ## Notes
 
-- This repository is public and focused on the extension product only.
-- The website source is maintained separately.
+- The canonical production host is `sudoku-play.org`.
+- Requests for `sudokus.org`, `www.sudokus.org`, and `www.sudoku-play.org` are redirected to the canonical host in the Worker.
