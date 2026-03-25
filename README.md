@@ -101,9 +101,9 @@ Play Sudoku directly from your browser toolbar.
 
   Source code: [extension/firefox](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox)
 
-✨ Open puzzles in one click
-✨ Jump straight into Daily Sudoku
-✨ Quick brain breaks anytime
+✨ 10 quick popup levels right in the extension
+✨ Full 9x9 board inside the extension
+✨ Daily Sudoku and Kids Sudoku one click away
 
 ---
 
