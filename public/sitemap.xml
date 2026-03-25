@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sudoku-play.org/</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-25</lastmod>
   </url>
   <url>
     <loc>https://sudoku-play.org/easy-sudoku/</loc>
@@ -22,11 +22,15 @@
   </url>
   <url>
     <loc>https://sudoku-play.org/daily-sudoku/</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-25</lastmod>
   </url>
   <url>
     <loc>https://sudoku-play.org/guide/</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sudoku-play.org/browser-extension/</loc>
+    <lastmod>2026-03-25</lastmod>
   </url>
   <url>
     <loc>https://sudoku-play.org/sudoku-generator/</loc>
@@ -83,6 +87,10 @@
   <url>
     <loc>https://sudoku-play.org/guide/sudoku-night-mode/</loc>
     <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://sudoku-play.org/guide/sudoku-browser-extension/</loc>
+    <lastmod>2026-03-25</lastmod>
   </url>
   <url>
     <loc>https://sudoku-play.org/sudoku-for-kids/</loc>
