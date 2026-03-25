@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sudoku-play.org/sitemap.xml
