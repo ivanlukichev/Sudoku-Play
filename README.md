@@ -6,6 +6,8 @@ Open the main Sudoku board, jump into Daily Sudoku, launch Kids Sudoku, and keep
 
 Live website: [sudoku-play.org](https://sudoku-play.org/)
 
+Created by [lukichev.biz](https://lukichev.biz/)
+
 ## Why Sudoku Play
 
 - Quick access to Sudoku from the browser toolbar
