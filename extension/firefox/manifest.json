@@ -3,7 +3,7 @@
   "name": "Sudoku Play",
   "short_name": "Sudoku Play",
   "version": "1.0.0",
-  "description": "Quickly open Sudoku Play, Daily Sudoku, and Kids Sudoku from your browser toolbar.",
+  "description": "Play Sudoku, Daily Sudoku, and Kids Sudoku right from your browser toolbar.",
   "homepage_url": "https://sudoku-play.org/browser-extension/",
   "icons": {
     "16": "icons/icon-16.png",

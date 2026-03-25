@@ -1,11 +1,11 @@
 (function () {
   "use strict";
 
-  var SITE_ROUTES = {
-    home: "https://sudoku-play.org/",
-    daily: "https://sudoku-play.org/daily-sudoku/",
-    kids: "https://sudoku-play.org/sudoku-for-kids/",
-    guide: "https://sudoku-play.org/guide/"
+  var ROUTES = {
+    home: { path: "index.html" },
+    daily: { path: "daily-sudoku/index.html" },
+    kids: { path: "sudoku-for-kids/index.html" },
+    guide: { url: "https://sudoku-play.org/guide/" }
   };
 
   function getExtensionApi() {
@@ -20,8 +20,17 @@
 
   function openRoute(routeKey) {
     var api = getExtensionApi();
-    var url = SITE_ROUTES[routeKey];
-    if (!api || !url) {
+    var route = ROUTES[routeKey];
+    var url = "";
+    if (!api || !route) {
+      return;
+    }
+    if (route.url) {
+      url = route.url;
+    } else if (api.runtime && typeof api.runtime.getURL === "function") {
+      url = api.runtime.getURL(route.path);
+    }
+    if (!url) {
       return;
     }
     api.tabs.create({ url: url });

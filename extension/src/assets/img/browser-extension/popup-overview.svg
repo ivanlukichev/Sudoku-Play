@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-label="Sudoku Play browser extension popup overview">
+  <defs>
+    <linearGradient id="bg" x1="640" x2="640" y1="0" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#eaf2fd"/>
+    </linearGradient>
+    <linearGradient id="card" x1="220" x2="220" y1="120" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="160" cy="120" r="160" fill="#dcecff"/>
+  <circle cx="1130" cy="160" r="180" fill="#e7f2ff"/>
+  <rect x="90" y="86" width="1100" height="628" rx="44" fill="#ffffff" opacity=".82"/>
+  <text x="122" y="160" fill="#2f7de1" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="4">SUDOKU PLAY EXTENSION</text>
+  <text x="122" y="222" fill="#17324d" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="56" font-weight="800">Popup Overview</text>
+  <text x="122" y="274" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="28">A clean launcher for the main game, Daily Sudoku, Kids Sudoku, and the Guide.</text>
+
+  <rect x="780" y="144" width="330" height="478" rx="36" fill="url(#card)" stroke="#c6daef" stroke-width="2"/>
+  <rect x="812" y="176" width="72" height="72" rx="22" fill="#edf5ff"/>
+  <path d="M848 176v72M812 212h72" fill="none" stroke="#9bb9de" stroke-width="2"/>
+  <text x="835" y="204" fill="#173b63" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700">7</text>
+  <text x="861" y="204" fill="#173b63" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700">3</text>
+  <text x="835" y="232" fill="#173b63" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700">2</text>
+  <text x="861" y="232" fill="#173b63" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700">1</text>
+  <text x="905" y="203" fill="#2f7de1" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">QUICK BRAIN BREAK</text>
+  <text x="905" y="238" fill="#17324d" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="34" font-weight="800">Sudoku Play</text>
+  <text x="905" y="268" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="18">Free daily puzzles for your browser.</text>
+
+  <rect x="812" y="296" width="266" height="76" rx="22" fill="#2f7de1"/>
+  <text x="836" y="327" fill="#ffffff" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="24" font-weight="700">Play Sudoku</text>
+  <text x="836" y="353" fill="#e4f0ff" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="16">Open the main 9x9 board</text>
+
+  <rect x="812" y="386" width="266" height="68" rx="20" fill="#ffffff" stroke="#d3e2f4"/>
+  <text x="836" y="414" fill="#17324d" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700">Daily Sudoku</text>
+  <text x="836" y="438" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="15">Jump into today&apos;s shared puzzle</text>
+
+  <rect x="812" y="466" width="266" height="68" rx="20" fill="#ffffff" stroke="#d3e2f4"/>
+  <text x="836" y="494" fill="#17324d" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700">Kids Sudoku</text>
+  <text x="836" y="518" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="15">Mini, Picture, and Junior modes</text>
+
+  <rect x="812" y="546" width="266" height="68" rx="20" fill="#ffffff" stroke="#d3e2f4"/>
+  <text x="836" y="574" fill="#17324d" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700">Guide</text>
+  <text x="836" y="598" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="15">Rules, tips, and beginner help</text>
+
+  <rect x="122" y="336" width="568" height="260" rx="34" fill="#ffffff" stroke="#d0e0f2"/>
+  <text x="156" y="384" fill="#2f7de1" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3">WHY IT WORKS</text>
+  <text x="156" y="432" fill="#17324d" font-family="'SF Pro Display','Segoe UI',Arial,sans-serif" font-size="34" font-weight="800">One click to the puzzle you want</text>
+  <text x="156" y="474" fill="#5c738b" font-family="'SF Pro Text','Segoe UI',Arial,sans-serif" font-size="24">The popup stays compact, branded, and focused on fast launch actions.</text>
+  <rect x="156" y="510" width="220" height="22" rx="11" fill="#e6f1ff"/>
+  <rect x="156" y="548" width="280" height="22" rx="11" fill="#edf5ff"/>
+  <rect x="156" y="586" width="194" height="22" rx="11" fill="#e6f1ff"/>
+</svg>
