@@ -25,7 +25,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "addon@sudoku-play.org",
+      "id": "sudoku-play-browser-extension@lukichev.biz",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": [
