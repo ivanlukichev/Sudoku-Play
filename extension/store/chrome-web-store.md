@@ -34,4 +34,5 @@ What&apos;s included in version 1:
 
 Live website: https://sudoku-play.org/
 
-Store link will be added after publication.
+Published Chrome Web Store link:
+https://chromewebstore.google.com/detail/sudoku-play/dfeiegbgaadmogggolkhchdhlnjoankc

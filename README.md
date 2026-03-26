@@ -89,7 +89,7 @@ Play Sudoku directly from your browser toolbar.
 
 ### Supported browsers
 
-* Chrome (coming soon)
+* Chrome: [Chrome Web Store](https://chromewebstore.google.com/detail/sudoku-play/dfeiegbgaadmogggolkhchdhlnjoankc)
 
   Source code: [extension/chrome](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome)
   
@@ -175,7 +175,7 @@ No friction. No noise. Just puzzles.
 
 ## ⭐ Future Plans
 
-* browser extension store release
+* Opera and Firefox store release
 * printable puzzle packs
 * advanced solving tools
 * more kids-friendly formats
