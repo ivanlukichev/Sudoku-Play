@@ -104,6 +104,7 @@ Play Sudoku directly from your browser toolbar.
 ✨ 10 quick popup levels right in the extension
 ✨ Full 9x9 board inside the extension
 ✨ Daily Sudoku and Kids Sudoku one click away
+✨ Privacy policy: [extension/privacy-policy.md](https://github.com/ivanlukichev/Sudoku-Play/blob/main/extension/privacy-policy.md)
 
 ---
 
