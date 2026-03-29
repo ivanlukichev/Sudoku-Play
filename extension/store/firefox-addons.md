@@ -31,4 +31,5 @@ Version 1 focuses on:
 - Kids Sudoku shortcut
 - lightweight Firefox-compatible Manifest V3 setup
 
-Store link will be added after publication.
+Published Firefox Add-ons link:
+https://addons.mozilla.org/addon/sudoku-play/

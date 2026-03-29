@@ -97,7 +97,7 @@ Play Sudoku directly from your browser toolbar.
   
   Source code: [extension/opera](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera)
   
-* Firefox (coming soon)
+* Firefox: [Firefox Add-ons](https://addons.mozilla.org/addon/sudoku-play/)
 
   Source code: [extension/firefox](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox)
 
@@ -175,7 +175,7 @@ No friction. No noise. Just puzzles.
 
 ## ⭐ Future Plans
 
-* Opera and Firefox store release
+* Opera store release
 * printable puzzle packs
 * advanced solving tools
 * more kids-friendly formats
