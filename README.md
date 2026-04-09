@@ -16,6 +16,12 @@
   <a href="https://sudoku-play.org/daily-sudoku/"><strong>Daily Sudoku</strong></a>
   ·
   <a href="https://sudoku-play.org/guide/"><strong>Sudoku Guide</strong></a>
+  ·
+  <a href="https://chromewebstore.google.com/detail/sudoku-play/dfeiegbgaadmogggolkhchdhlnjoankc"><strong>Chrome Extension</strong></a>
+  ·
+  <a href="https://addons.opera.com/en/extensions/details/sudoku-play/"><strong>Opera Extension</strong></a>
+  ·
+  <a href="https://addons.mozilla.org/firefox/addon/sudoku-play/"><strong>Firefox Extension</strong></a>
 </p>
 
 <p align="center">
@@ -29,6 +35,23 @@
 Sudoku Play is a browser-based Sudoku product built around instant play, clear UI, and multiple entry points into the same core logic game. The site combines classic levels, daily seeded boards, kid-friendly variants, and a guide layer that helps both players and organic discovery.
 
 This public repository is a landing-style GitHub showcase for the live site.
+
+## Browser Extensions
+
+Sudoku Play also has a browser-extension layer for fast access from the toolbar.
+
+| Browser | Status | Install |
+| --- | --- | --- |
+| Chrome | Live | [Install from Chrome Web Store](https://chromewebstore.google.com/detail/sudoku-play/dfeiegbgaadmogggolkhchdhlnjoankc) |
+| Opera | Live | [Install from Opera Add-ons](https://addons.opera.com/en/extensions/details/sudoku-play/) |
+| Firefox | Live | [Install from Firefox Add-ons](https://addons.mozilla.org/firefox/addon/sudoku-play/) |
+
+The public repo also includes the extension source packages:
+
+- Chrome source: [extension/chrome](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome)
+- Opera source: [extension/opera](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera)
+- Firefox source: [extension/firefox](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox)
+- Privacy policy: [extension/privacy-policy.md](https://github.com/ivanlukichev/Sudoku-Play/blob/main/extension/privacy-policy.md)
 
 ## Live Sections
 
@@ -71,5 +94,6 @@ This public repository is a landing-style GitHub showcase for the live site.
 <p>
   <a href="https://sudoku-play.org/"><strong>Open Sudoku Play</strong></a><br>
   <a href="https://sudoku-play.org/daily-sudoku/">Play the Daily Sudoku</a><br>
-  <a href="https://sudoku-play.org/guide/how-to-play-sudoku/">Learn How to Play</a>
+  <a href="https://sudoku-play.org/guide/how-to-play-sudoku/">Learn How to Play</a><br>
+  <a href="https://addons.opera.com/en/extensions/details/sudoku-play/">Install the Opera Extension</a>
 </p>
