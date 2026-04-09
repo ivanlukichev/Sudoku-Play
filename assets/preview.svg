@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Sudoku Play preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f8fc"/>
+      <stop offset="100%" stop-color="#e6effa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="175" fill="#7ab5ff" opacity="0.18"/>
+  <circle cx="140" cy="520" r="220" fill="#bddbff" opacity="0.2"/>
+  <rect x="84" y="86" width="1032" height="458" rx="36" fill="#ffffff" stroke="#cfe0f2" stroke-width="2"/>
+  <text x="120" y="160" fill="#2f7de1" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">ONLINE SUDOKU</text>
+  <text x="120" y="252" fill="#18324d" font-family="Arial, sans-serif" font-size="72" font-weight="700">Sudoku Play</text>
+  <text x="120" y="310" fill="#5d738a" font-family="Arial, sans-serif" font-size="28">Classic levels, daily puzzles, kids modes, and a clean board-first UI.</text>
+  <g transform="translate(760 150)">
+    <rect width="270" height="270" rx="28" fill="#f9fcff" stroke="#c6d9ee"/>
+    <g stroke="#9ab7d8" stroke-width="2">
+      <line x1="0" y1="90" x2="270" y2="90"/>
+      <line x1="0" y1="180" x2="270" y2="180"/>
+      <line x1="90" y1="0" x2="90" y2="270"/>
+      <line x1="180" y1="0" x2="180" y2="270"/>
+      <line x1="0" y1="30" x2="270" y2="30" opacity="0.4"/>
+      <line x1="0" y1="60" x2="270" y2="60" opacity="0.4"/>
+      <line x1="0" y1="120" x2="270" y2="120" opacity="0.4"/>
+      <line x1="0" y1="150" x2="270" y2="150" opacity="0.4"/>
+      <line x1="0" y1="210" x2="270" y2="210" opacity="0.4"/>
+      <line x1="0" y1="240" x2="270" y2="240" opacity="0.4"/>
+      <line x1="30" y1="0" x2="30" y2="270" opacity="0.4"/>
+      <line x1="60" y1="0" x2="60" y2="270" opacity="0.4"/>
+      <line x1="120" y1="0" x2="120" y2="270" opacity="0.4"/>
+      <line x1="150" y1="0" x2="150" y2="270" opacity="0.4"/>
+      <line x1="210" y1="0" x2="210" y2="270" opacity="0.4"/>
+      <line x1="240" y1="0" x2="240" y2="270" opacity="0.4"/>
+    </g>
+    <g fill="#18324d" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+      <text x="45" y="52">4</text>
+      <text x="135" y="82">8</text>
+      <text x="225" y="52">7</text>
+      <text x="75" y="172">3</text>
+      <text x="165" y="142">9</text>
+      <text x="225" y="232">5</text>
+    </g>
+  </g>
+  <rect x="120" y="368" width="170" height="52" rx="26" fill="#2f7de1"/>
+  <text x="205" y="402" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Play now</text>
+  <rect x="308" y="368" width="170" height="52" rx="26" fill="#eef5fd" stroke="#c9ddf3"/>
+  <text x="393" y="402" text-anchor="middle" fill="#18324d" font-family="Arial, sans-serif" font-size="24" font-weight="700">Daily puzzle</text>
+  <text x="120" y="492" fill="#7290ad" font-family="Arial, sans-serif" font-size="22">Live at sudoku-play.org</text>
+</svg>

@@ -1,197 +1,75 @@
-# 🧩 Sudoku Play
-
-**Sudoku Play** is a fast, clean, and distraction-free Sudoku experience built for everyday use.
-
-👉 https://sudoku-play.org/
-
----
-
-## 🚀 What is Sudoku Play?
-
-Sudoku Play is a browser-based Sudoku platform designed for:
-
-* quick daily puzzles
-* focused solving
-* kids-friendly learning
-* printable worksheets
-
-No accounts. No clutter. Just Sudoku.
-
----
-
-## 🎯 Why Sudoku Play?
-
-Most Sudoku sites are overloaded.
-
-Sudoku Play focuses on:
-
-* ⚡ instant gameplay
-* 🧠 clean logic solving
-* 📱 mobile-friendly UI
-* 🎯 zero distractions
-
-It’s designed to feel like an app — directly in your browser.
-
----
-
-## 🧠 Core Features
-
-* ✔️ Play Sudoku online (Easy → Expert)
-* ✔️ Daily Sudoku (new puzzle every day)
-* ✔️ Kids Sudoku (mini, emoji, shapes)
-* ✔️ Printable Sudoku with QR codes
-* ✔️ Puzzle ID (share exact puzzles)
-* ✔️ Clean UI + dark mode + focus modes
-
----
-
-## 🧩 Play Modes
-
-### Classic Sudoku
-
-* Easy, Medium, Hard, Expert
-* Clean solving experience
-* Keyboard support
-
-### Kids Sudoku
-
-* 2×2, 3×3, 4×4 grids
-* Emoji & shape puzzles
-* Printable worksheets
-
-### Daily Sudoku
-
-* One puzzle per day
-* Same for everyone
-* Perfect for routine play
-
----
-
-## 🧾 Printable Sudoku
-
-Sudoku Play supports printing puzzles with:
-
-* clean layout
-* puzzle ID
-* QR code (scan to open online)
-
-Perfect for:
-
-* kids
-* teachers
-* offline solving
-
----
-
-## 🌐 Browser Extensions
-
-Play Sudoku directly from your browser toolbar.
-
-### Supported browsers
-
-* Chrome: [Chrome Web Store](https://chromewebstore.google.com/detail/sudoku-play/dfeiegbgaadmogggolkhchdhlnjoankc)
-
-  Source code: [extension/chrome](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/chrome)
-  
-* Opera: [Opera Add-ons](https://addons.opera.com/en/extensions/details/sudoku-play/)
-  
-  Source code: [extension/opera](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/opera)
-  
-* Firefox: [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/sudoku-play/)
-
-  Source code: [extension/firefox](https://github.com/ivanlukichev/Sudoku-Play/tree/main/extension/firefox)
-
-✨ 10 quick popup levels right in the extension
-✨ Full 9x9 board inside the extension
-✨ Daily Sudoku and Kids Sudoku one click away
-✨ Privacy policy: [extension/privacy-policy.md](https://github.com/ivanlukichev/Sudoku-Play/blob/main/extension/privacy-policy.md)
-
----
-
-## 🧠 Guide & Learning
-
-Sudoku Play includes a growing guide section:
-
-* How to play Sudoku
-* Sudoku strategies
-* Tips for beginners
-* Sudoku for kids
-* Accessibility features
-
-Designed to help players improve naturally.
-
----
-
-## 🧩 Puzzle System
-
-Each Sudoku uses a **Puzzle ID (seed-based generation)**.
-
-Example:
-
-```
-https://sudoku-play.org/?p=683220
-```
-
-This means:
-
-* every puzzle is reproducible
-* easy to share with others
-* consistent across devices
-
----
-
-## 🛠 Tech Overview
-
-* Pure JavaScript (no backend)
-* Seed-based puzzle generation
-* Lightweight UI
-* Mobile-first design
-
----
-
-## 👤 About the Author
-
-Built by **Ivan Lukichev**
-
-* SEO & product builder
-* creator of multiple micro-projects
-* focused on simple, useful tools
-
-More:
-👉 https://lukichev.biz/
-
----
-
-
-## 💡 Philosophy
-
-Sudoku Play is built around a simple idea:
-
-> open → solve → repeat
-
-No friction. No noise. Just puzzles.
-
----
-
-## ⭐ Future Plans
-
-* printable puzzle packs
-* advanced solving tools
-* more kids-friendly formats
-
----
-
-## ❤️ Support
-
-If you like the project:
-
-* ⭐ Star the repo
-* 🔗 Share the site
-* 🧠 Solve a puzzle
-
----
-
-## 🔗 Links
-
-Website: https://sudoku-play.org/
-Repository: https://github.com/ivanlukichev/Sudoku-Play
+<p align="center">
+  <a href="https://sudoku-play.org/">
+    <img src="https://sudoku-play.org/assets/img/favicon.svg" alt="Sudoku Play icon" width="96" height="96">
+  </a>
+</p>
+
+<h1 align="center">Sudoku Play</h1>
+
+<p align="center">
+  Fast online Sudoku with classic difficulty ladders, daily puzzles, kids modes, and a clean browser-first interface designed for instant play.
+</p>
+
+<p align="center">
+  <a href="https://sudoku-play.org/"><strong>Play Now</strong></a>
+  ·
+  <a href="https://sudoku-play.org/daily-sudoku/"><strong>Daily Sudoku</strong></a>
+  ·
+  <a href="https://sudoku-play.org/guide/"><strong>Sudoku Guide</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://sudoku-play.org/">
+    <img src="assets/preview.svg" alt="Sudoku Play preview" width="900">
+  </a>
+</p>
+
+## What It Is
+
+Sudoku Play is a browser-based Sudoku product built around instant play, clear UI, and multiple entry points into the same core logic game. The site combines classic levels, daily seeded boards, kid-friendly variants, and a guide layer that helps both players and organic discovery.
+
+This public repository is a landing-style GitHub showcase for the live site.
+
+## Live Sections
+
+| Section | Link | Purpose |
+| --- | --- | --- |
+| Home | [sudoku-play.org](https://sudoku-play.org/) | Main play page |
+| Easy | [sudoku-play.org/easy-sudoku/](https://sudoku-play.org/easy-sudoku/) | Beginner-friendly board |
+| Medium | [sudoku-play.org/medium-sudoku/](https://sudoku-play.org/medium-sudoku/) | Balanced default difficulty |
+| Hard | [sudoku-play.org/hard-sudoku/](https://sudoku-play.org/hard-sudoku/) | Stronger logic challenge |
+| Daily Sudoku | [sudoku-play.org/daily-sudoku/](https://sudoku-play.org/daily-sudoku/) | One shared puzzle per day |
+| Sudoku for Kids | [sudoku-play.org/sudoku-for-kids/](https://sudoku-play.org/sudoku-for-kids/) | Simpler, friendlier formats |
+| Guide | [sudoku-play.org/guide/](https://sudoku-play.org/guide/) | Rules, strategies, and supporting content |
+
+## Why It Feels Different
+
+- Sudoku is visible immediately instead of hiding behind a giant marketing layer.
+- Classic, daily, and kids modes share one consistent product language.
+- The interface is built for mobile comfort, keyboard support, and low visual noise.
+- The guide section extends the project beyond one puzzle page into a real content hub.
+
+## Project Snapshot
+
+- Topic: classic Sudoku and adjacent variants
+- Stack: HTML, CSS, vanilla JavaScript
+- Modes: easy, medium, hard, expert, daily, kids
+- UX goal: instant play with a calm, app-like feeling
+- SEO goal: strong playable pages plus a guide/content cluster
+
+## More Projects
+
+| Project | Live site | Public repo |
+| --- | --- | --- |
+| SkillSudoku | [skillsudoku.com](https://skillsudoku.com/) | [skillsudoku_public](https://github.com/ivanlukichev/skillsudoku_public) |
+| CalcSprint | [calcsprint.com](https://calcsprint.com/) | [CalcSprint](https://github.com/ivanlukichev/CalcSprint) |
+| Number Hunt | [numberhuntgame.com](https://numberhuntgame.com/) | [numberhuntgame](https://github.com/ivanlukichev/numberhuntgame) |
+| PlayMathPuzzles | [playmathpuzzles.com](https://playmathpuzzles.com/) | [PlayMathPuzzles](https://github.com/ivanlukichev/PlayMathPuzzles) |
+
+## Visit
+
+<p>
+  <a href="https://sudoku-play.org/"><strong>Open Sudoku Play</strong></a><br>
+  <a href="https://sudoku-play.org/daily-sudoku/">Play the Daily Sudoku</a><br>
+  <a href="https://sudoku-play.org/guide/how-to-play-sudoku/">Learn How to Play</a>
+</p>
