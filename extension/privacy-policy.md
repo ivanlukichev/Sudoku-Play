@@ -2,7 +2,7 @@
 
 Effective date: March 26, 2026
 
-This privacy policy applies to the Sudoku Play browser extension builds in this folder, including Chrome, Opera, and Firefox versions.
+This privacy policy applies to the Sudoku Play browser extension builds in this folder, including Chrome, Edge, Opera, and Firefox versions.
 
 ## What the extension does
 

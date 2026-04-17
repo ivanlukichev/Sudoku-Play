@@ -2,13 +2,14 @@
 
 ## Assets
 
-- `extension/chrome/`, `extension/opera/`, and `extension/firefox/` contain the browser-ready source folders.
+- `extension/chrome/`, `extension/edge/`, `extension/opera/`, and `extension/firefox/` contain the browser-ready source folders.
 - `public/assets/img/browser-extension/` contains the prepared screenshots and promo image assets.
 - `extension/src/icons/` contains the generated extension icon sizes.
 
 ## Draft Copy
 
 - Chrome Web Store: `extension/store/chrome-web-store.md`
+- Microsoft Edge Add-ons: `extension/store/microsoft-edge-addons.md`
 - Opera Add-ons: `extension/store/opera-addons.md`
 - Firefox Add-ons: `extension/store/firefox-addons.md`
 

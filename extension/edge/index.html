@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sudoku Play</title>
+    <meta name="description" content="Play a compact 9x9 Sudoku directly inside the Sudoku Play browser extension.">
+    <link rel="stylesheet" href="./game.css">
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="hero">
+        <div class="brand-mark" aria-hidden="true">
+          <span>7</span>
+          <span>3</span>
+          <span>2</span>
+          <span>1</span>
+        </div>
+        <div class="hero__copy">
+          <p class="eyebrow">Playable in extension</p>
+          <h1>Sudoku Play</h1>
+          <p class="hero__text">A compact 9x9 Sudoku with built-in puzzles, number buttons, and quick links for more on the website.</p>
+        </div>
+        <a class="hero__link" href="https://sudoku-play.org/" target="_blank" rel="noreferrer">More on sudoku-play.org</a>
+      </header>
+
+      <section class="workspace">
+        <section class="board-card" aria-labelledby="board-title">
+          <div class="board-card__top">
+            <div>
+              <p class="card-label">Built-in puzzle pack</p>
+              <h2 id="board-title">Classic Sudoku</h2>
+            </div>
+            <div class="chip-row">
+              <span class="chip" id="difficulty-badge">Easy</span>
+              <span class="chip chip--soft" id="puzzle-count">Puzzle 1 of 16</span>
+            </div>
+          </div>
+
+          <div class="board-frame">
+            <div class="sudoku-board" id="sudoku-board" role="grid" aria-label="Sudoku board"></div>
+          </div>
+
+          <div class="number-pad" id="number-pad" aria-label="Number pad"></div>
+        </section>
+
+        <aside class="side-card">
+          <section class="panel">
+            <p class="card-label">Current game</p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat__label">Progress</span>
+                <strong class="stat__value" id="progress-value">0 / 81</strong>
+              </div>
+              <div class="stat">
+                <span class="stat__label">Selected</span>
+                <strong class="stat__value" id="selected-value">Pick a cell</strong>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel panel--actions">
+            <button class="action-button action-button--primary" id="new-puzzle" type="button">New Puzzle</button>
+            <button class="action-button" id="reset-board" type="button">Reset Board</button>
+          </section>
+
+          <section class="panel">
+            <p class="card-label">Status</p>
+            <p class="status-message" id="status-message" aria-live="polite">Pick a cell and use the number pad or keyboard to play.</p>
+          </section>
+
+          <section class="panel">
+            <p class="card-label">Need more puzzles?</p>
+            <div class="link-stack">
+              <a class="text-link" href="https://sudoku-play.org/daily-sudoku/" target="_blank" rel="noreferrer">Open Daily Sudoku on the website</a>
+              <a class="text-link" href="https://sudoku-play.org/sudoku-for-kids/" target="_blank" rel="noreferrer">Open Kids Sudoku on the website</a>
+              <a class="text-link" href="https://sudoku-play.org/guide/" target="_blank" rel="noreferrer">Read the Sudoku guide</a>
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
