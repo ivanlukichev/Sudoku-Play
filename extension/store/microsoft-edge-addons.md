@@ -31,4 +31,5 @@ Highlights:
 - easy access to kids-friendly Sudoku modes
 - link back to the full guide and website
 
-Store link will be added after publication.
+Published Microsoft Edge Add-ons link:
+https://microsoftedge.microsoft.com/addons/detail/okjjopaahehbehjfiiidahmibmhlcnkd
