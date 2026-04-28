@@ -26,6 +26,8 @@
   <a href="https://addons.mozilla.org/firefox/addon/sudoku-play/"><strong>Firefox Extension</strong></a>
   ·
   <a href="https://apps.apple.com/app/id6763089363"><strong>App Store</strong></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.enidev.justsudoku"><strong>Google Play</strong></a>
 </p>
 
 <p align="center">
@@ -61,12 +63,12 @@ The public repo also includes the extension source packages:
 
 ## Mobile App
 
-Just Sudoku is also available on iPhone as a clean mobile companion to Sudoku Play.
+Just Sudoku is also available on iPhone, iPad, and Android as a clean mobile companion to Sudoku Play.
 
 | Platform | Status | Install |
 | --- | --- | --- |
 | iOS | Live | [Download on the App Store](https://apps.apple.com/app/id6763089363) |
-| Android | Coming soon | Google Play listing is not live yet |
+| Android | Live | [Get it on Google Play](https://play.google.com/store/apps/details?id=com.enidev.justsudoku) |
 
 ## Live Sections
 
@@ -111,6 +113,7 @@ Just Sudoku is also available on iPhone as a clean mobile companion to Sudoku Pl
   <a href="https://sudoku-play.org/daily-sudoku/">Play the Daily Sudoku</a><br>
   <a href="https://sudoku-play.org/guide/how-to-play-sudoku/">Learn How to Play</a><br>
   <a href="https://apps.apple.com/app/id6763089363">Download Just Sudoku on the App Store</a><br>
+  <a href="https://play.google.com/store/apps/details?id=com.enidev.justsudoku">Get Just Sudoku on Google Play</a><br>
   <a href="https://microsoftedge.microsoft.com/addons/detail/okjjopaahehbehjfiiidahmibmhlcnkd">Install the Edge Extension</a><br>
   <a href="https://addons.opera.com/en/extensions/details/sudoku-play/">Install the Opera Extension</a>
 </p>
