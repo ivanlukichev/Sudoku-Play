@@ -30,6 +30,8 @@
   <a href="https://play.google.com/store/apps/details?id=com.enidev.justsudoku"><strong>Google Play</strong></a>
   ·
   <a href="https://apps.apple.com/app/id6764041492"><strong>Kids App</strong></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.enidev.kidssudoku"><strong>Kids Google Play</strong></a>
 </p>
 
 <p align="center">
@@ -72,6 +74,7 @@ Just Sudoku is also available on iPhone, iPad, and Android as a clean mobile com
 | iOS | Live | [Download on the App Store](https://apps.apple.com/app/id6763089363) |
 | Android | Live | [Get it on Google Play](https://play.google.com/store/apps/details?id=com.enidev.justsudoku) |
 | Kids iOS | Live | [Download Kids Sudoku on the App Store](https://apps.apple.com/app/id6764041492) |
+| Kids Android | Live | [Get Kids Sudoku on Google Play](https://play.google.com/store/apps/details?id=com.enidev.kidssudoku) |
 
 ## Live Sections
 
@@ -118,6 +121,7 @@ Just Sudoku is also available on iPhone, iPad, and Android as a clean mobile com
   <a href="https://apps.apple.com/app/id6763089363">Download Just Sudoku on the App Store</a><br>
   <a href="https://play.google.com/store/apps/details?id=com.enidev.justsudoku">Get Just Sudoku on Google Play</a><br>
   <a href="https://apps.apple.com/app/id6764041492">Download Kids Sudoku on the App Store</a><br>
+  <a href="https://play.google.com/store/apps/details?id=com.enidev.kidssudoku">Get Kids Sudoku on Google Play</a><br>
   <a href="https://microsoftedge.microsoft.com/addons/detail/okjjopaahehbehjfiiidahmibmhlcnkd">Install the Edge Extension</a><br>
   <a href="https://addons.opera.com/en/extensions/details/sudoku-play/">Install the Opera Extension</a>
 </p>
